@@ -1,0 +1,16 @@
+{
+  "bundle": {
+    "active": true,
+    "targets": ["appimage","deb","rpm"],
+    "deb": {
+      "depends": ["libc6", "libgcc1", "libwebkit2gtk-4.0-37"],
+      "priority": "optional"
+    },
+    "rpm": {
+        "requires": ["webkit2gtk3", "libappindicator-gtk3"]
+    },
+    "appImage": {
+      "systemIntegration": true
+    }
+  }
+}

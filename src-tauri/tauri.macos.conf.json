@@ -1,0 +1,10 @@
+{
+  "bundle": {
+    "active": true,
+    "targets": ["dmg","app"],
+    "macos": {        
+      "frameworks": [],
+      "minimumSystemVersion": "10.13"
+    }
+  }
+}
